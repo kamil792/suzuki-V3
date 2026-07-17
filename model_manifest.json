@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "open_source": true,
+  "model_name": "poker44-lean-detector",
+  "model_version": "1",
+  "framework": "mlp",
+  "license": "MIT",
+  "repo_url": "https://github.com/kamil792/suzuki-V3",
+  "repo_commit": "",
+  "artifact_sha256": "e0f32acfdb1ee29987f4b8999284c77bed8c0d2354295c7e23f6d97aca9a42dd",
+  "artifact_basename": "current.joblib",
+  "implementation_sha256": "d9eec63c11b09f0e147114c2b0c9ae0a4202c0e25cedeffa787cfa077431c85e",
+  "implementation_files": [
+    "neurons/miner.py",
+    "poker44_ml/inference.py",
+    "poker44_ml/features.py",
+    "poker44_ml/sequence_model.py",
+    "poker44_ml/stacked.py",
+    "poker44_ml/calibration.py",
+    "poker44_ml/batch_calibration.py",
+    "poker44/validator/payload_view.py"
+  ],
+  "inference_mode": "local-joblib",
+  "training_data_statement": "Trained on the Poker44 public training benchmark (api.poker44.net). No validator-private evaluation data used.",
+  "training_data_sources": [
+    "released_training_benchmark"
+  ],
+  "private_data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only.",
+  "data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only."
+}
