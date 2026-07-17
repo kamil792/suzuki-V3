@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "open_source": true,
-  "model_name": "poker44-lean-detector",
+  "model_name": "poker44-wave-detector",
   "model_version": "1",
   "framework": "mlp",
   "license": "MIT",
   "repo_url": "https://github.com/kamil792/suzuki-V3",
   "repo_commit": "",
-  "artifact_sha256": "e0f32acfdb1ee29987f4b8999284c77bed8c0d2354295c7e23f6d97aca9a42dd",
+  "artifact_sha256": "4f56e059388189634238e7f5d9f010535c48f651e57bb21b7cce5ea962dc72b4",
   "artifact_basename": "current.joblib",
-  "implementation_sha256": "d9eec63c11b09f0e147114c2b0c9ae0a4202c0e25cedeffa787cfa077431c85e",
+  "implementation_sha256": "8a09f3178c33ea8a3b54e4634a878c04579730a73e41a0712bf013b1fae90f3b",
   "implementation_files": [
     "neurons/miner.py",
     "poker44_ml/inference.py",
